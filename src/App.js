@@ -1,23 +1,14 @@
-import logo from './logo.svg';
 import './App.css';
+import Quizz from './components/quizz'
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h1>Est ce que tu ES un BOOMER.. <i>Rires.</i> </h1>
+      
+      <Quizz />
+      <h3>BAV ptg33</h3>
+      <h4>By Chritiane ou Cricri-du-33</h4>
     </div>
   );
 }
